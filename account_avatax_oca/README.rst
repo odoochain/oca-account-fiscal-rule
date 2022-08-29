@@ -14,26 +14,26 @@ Avalara Avatax Connector
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Faccount--fiscal--rule-lightgray.png?logo=github
-    :target: https://github.com/OCA/account-fiscal-rule/tree/15.0/account_avatax
+    :target: https://github.com/OCA/account-fiscal-rule/tree/15.0/account_avatax_oca
     :alt: OCA/account-fiscal-rule
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/account-fiscal-rule-15-0/account-fiscal-rule-15-0-account_avatax
+    :target: https://translation.odoo-community.org/projects/account-fiscal-rule-15-0/account-fiscal-rule-15-0-account_avatax_oca
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
     :target: https://runbot.odoo-community.org/runbot/93/15.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
-.. |avataxbadge1| image:: https://raw.githubusercontent.com/OCA/account-fiscal-rule/15.0/account_avatax/static/description/SalesTax.png
+.. |avataxbadge1| image:: https://raw.githubusercontent.com/OCA/account-fiscal-rule/15.0/account_avatax_oca/static/description/SalesTax.png
     :target: https://developer.avalara.com/certification/avatax/sales-tax-badge/
     :alt: Sales Tax Certification
     :width: 250
-.. |avataxbadge2| image:: https://raw.githubusercontent.com/OCA/account-fiscal-rule/15.0/account_avatax/static/description/Refunds.png
+.. |avataxbadge2| image:: https://raw.githubusercontent.com/OCA/account-fiscal-rule/15.0/account_avatax_oca/static/description/Refunds.png
     :target: https://developer.avalara.com/certification/avatax/refunds-credit-memos-badge/
     :alt: Refunds Certification
     :width: 250
-.. |avataxbadge3| image:: https://raw.githubusercontent.com/OCA/account-fiscal-rule/15.0/account_avatax/static/description/AddressValidation.png
+.. |avataxbadge3| image:: https://raw.githubusercontent.com/OCA/account-fiscal-rule/15.0/account_avatax_oca/static/description/AddressValidation.png
     :target: https://developer.avalara.com/certification/avatax/address-validation-badge/
     :alt: Address Validation Certification
     :width: 250
@@ -85,11 +85,11 @@ Typically it can be installed in your system usin ``pip``::
 
     pip3 install Avalara
 
-The base app, ``account_Avatax``, adds Avatax support to Customer Invoices.
-Inthe official app store: https://apps.odoo.com/apps/modules/15.0/account_avatax/
+The base app, ``account_avatax_oca``, adds Avatax support to Customer Invoices.
+Inthe official app store: https://apps.odoo.com/apps/modules/15.0/account_avatax_oca/
 
-The ``account_avatax_sale`` extension adds support to Quotations / Sales Orders.
-Inthe official app store: https://apps.odoo.com/apps/modules/15.0/account_avatax_sale/
+The ``account_avatax_oca_sale`` extension adds support to Quotations / Sales Orders.
+Inthe official app store: https://apps.odoo.com/apps/modules/15.0/account_avatax_oca_sale/
 
 In most cases you will want to download and install both modules.
 
@@ -101,7 +101,7 @@ To install the Avatax app:
 - Log into Odoo as an Administrator and enable the Developer Mode, in 'Settings'
 - Navigate to 'Apps', select the 'Update Apps List' menu, to have the new apps listed.
 - In the Apps list, search for 'AvaTax'
-- Click on the Install button. If available, the ``account_avatax_sale`` module will
+- Click on the Install button. If available, the ``account_avatax_oca_sale`` module will
   also be installed automatically.
 
 Configuration
@@ -407,7 +407,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/account-fiscal-rule/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/account-fiscal-rule/issues/new?body=module:%20account_avatax%0Aversion:%2015.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/account-fiscal-rule/issues/new?body=module:%20account_avatax_oca%0Aversion:%2015.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -483,8 +483,8 @@ promote its widespread use.
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-dreispt| 
+|maintainer-dreispt|
 
-This module is part of the `OCA/account-fiscal-rule <https://github.com/OCA/account-fiscal-rule/tree/15.0/account_avatax>`_ project on GitHub.
+This module is part of the `OCA/account-fiscal-rule <https://github.com/OCA/account-fiscal-rule/tree/15.0/account_avatax_oca>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
